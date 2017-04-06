@@ -5,6 +5,8 @@
 source "https://rubygems.org/"
 
 
+gem "hoe-mercurial", "~>1.4.0", :group => [:development, :test]
+gem "hoe-highline", "~>0.1.0", :group => [:development, :test]
 gem "rdoc", "~>4.0", :group => [:development, :test]
 gem "rake-compiler", "~>0.9", :group => [:development, :test]
 gem "hoe", "~>3.5.1", :group => [:development, :test]
